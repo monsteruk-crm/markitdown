@@ -1,0 +1,10 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "MarkItDown Python service - converts documents to Markdown"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.128.1",
+    "markitdown>=0.1.6",
+    "python-multipart>=0.0.20",
+]
